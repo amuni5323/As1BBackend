@@ -1,6 +1,6 @@
 import express from 'express';
 import Book from '../Models/bookModels.js';
-import authenticate from '../middleware/Authenticate.js';
+import authenticate from '../middleware/authenticate.js';
 import upload from '../middleware/multer.js';
 
 const router = express.Router();
